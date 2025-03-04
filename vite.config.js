@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss(),],
     build: {
         rollupOptions: {
-            external: ['react-use']
+            external: ['react-use','appwrite']
         }
     }
 
